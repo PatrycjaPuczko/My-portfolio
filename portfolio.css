@@ -1,0 +1,212 @@
+body {
+	background-color: #C1D3E2;
+	font-family: "Indie Flower", sans-serif;
+}
+.navbar {
+      font-family: "Indie Flower", sans-serif;
+      margin-bottom: 0;
+      color: #1b998b;
+      border: 0;
+      font-size: 16px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+.navbar-brand {
+  	font-family: "Indie Flower", cursive;
+  	letter-spacing: 0px;
+  	font-size: 20px;
+  	color: #1b998b;
+}
+.carousel-caption h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 120px;	
+  font-weight: 700;
+  }
+.carousel-caption h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 100px;	
+  font-weight: 600;
+  }
+.carousel-caption p {
+  font-family: "Satisfy", cursive;
+  font-size: 80px;	
+  font-weight: 500;
+  }
+.who {
+  	margin-top: 120px;
+  	margin-bottom: 150px;
+  	font-size: 40px;
+  	font-weight: 300;
+  	color: #1b998b;
+  }
+.past {
+	margin-bottom: 80px;
+	font-size: 22px;
+	font-style: italic;
+	color: #336699;
+}
+.present {
+	font-size: 25px;
+	margin-bottom: 60px;
+	color: #606569;
+}
+.img {
+	margin-right: 10px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+.hoverbox a
+{
+	cursor: default;
+}
+.hoverbox a .preview
+{
+	display: none;
+}
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: -45px;
+	z-index: 1;
+}
+.hoverbox img
+{
+	background: #C1D3E2;
+	border-color: #1b998b;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+	vertical-align: top;
+	width: 200px;
+	height: 140px;
+}
+.hoverbox li
+{
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+}
+.hoverbox .preview
+{
+	border-color: #1b998b;
+	border-width: 2px;
+	width: 350px;
+	height: 245px;
+}
+.cars {
+	font-size: 22px;
+	font-style: italic;
+}
+.future {
+	font-size: 30px;
+	color: #1b998b;
+}
+.img-rounded {
+	margin-top: 60px;
+	border-color: #1b998b;
+	border-style: solid;
+	border-width: 1px;
+}
+ .gallery__title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #1b998b;
+  font-family: "Indie Flower";
+  font-size: 50px;
+  text-align: center;
+}
+.gallery__content {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1050px;
+}
+.gallery__column {
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+}
+.box-container {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.box {
+  width: 360px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transform: translate3d(-40px, 0, 0);
+}
+.box:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: translate3d(0, 0, 0);
+}
+.box--1 {
+  background-image: url("images/gallery/husband.jpg");
+  height: 250px;
+}
+.box--2 {
+  background-image: url("images/gallery/dog.jpg");
+  height: 400px;
+}
+.box-3 {
+  background-image: url("images/gallery/auto.jpg");
+  height: 250px;
+}
+.box--4 {
+  background-image: url("images/gallery/travel.jpg");
+  height: 400px;
+}
+.box--5 {
+  background-image: url("images/gallery/code.jpg");
+  height: 250px;
+}
+.box--6 {
+  background-image: url("images/gallery/machines.jpg");
+  height: 250px;
+}
+.box--7 {
+  background-image: url("images/gallery/friends.jpg");
+  height: 300px;
+}
+.box--8 {
+  background-image: url("images/gallery/music.jpg");
+  height: 300px;
+}
+.box--9 {
+  background-image: url("images/gallery/unicorn.jpg");
+  height: 300px;
+}
+.contact {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-size: 20px;
+}
+.contact__social-link {
+	color: black;
+	margin-right: 25px;
+	margin-bottom: 40px;
+	display: inline-block;
+	text-decoration: none;
+}
+.footer { 
+	text-align: center;
+	font-size: 17px;
+	color: #ffffff;
+	background: url("images/stopka.jpg");
+	height: 60px;
+}
